@@ -3,7 +3,7 @@ import board
 import adafruit_dht
 
 # Define el tipo de sensor y el pin GPIO al que está conectado
-sensor = adafruit_dht.DHT22(board.D4)
+sensor = adafruit_dht.DHT22(board.D14)
 
 while True:
     try:
